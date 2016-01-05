@@ -1,0 +1,20 @@
+/* TEAM */                            
+
+Benjamin Shanahan
+bshanahan.info/about
+Boston, USA
+
+
+/* SITE */
+
+Last update: 23 December 2015
+Standards: HTML5, CSS3, PHP5
+Components: Boostrap, jQuery
+Software: Sublime Text 3, WinSCP
+
+
+/* RESOURCES */
+
+https://www.google.com/fonts
+http://detectmobilebrowsers.com/
+http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/
