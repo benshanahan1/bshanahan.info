@@ -4,7 +4,7 @@
         <!-- Page footer -->
         <div class="footer">
             <div class="container">
-                <p class="muted credit"><img src="images/favicon.png" width="16px" height="16px"> Copyright &copy; 2015 Benjamin Shanahan</p>
+                <p class="muted credit"><img src="images/favicon.png" width="16px" height="16px"> Copyright &copy; 2016 Benjamin Shanahan</p>
             </div>
         </div>
 
