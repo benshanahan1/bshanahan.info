@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<code>
+    <category label="Matlab">
+        <code slug="gettilt">
+            <title>getTilt.zip</title>
+            <description>Analyze coordinates of 3 tracker points on rat's head to determine if head is tilted or flat. Return boolean operator indicating if tilted.</description>
+            <link>documents/matlab/getTilt.zip</link>
+        </code>
+        <code slug="smsig">
+            <title>smsig.m</title>
+            <description>Function to smooth a signal with Gaussian windowing algorithm, given the signal and the window size.</description>
+            <link>documents/matlab/smsig.m</link>
+        </code>
+        <code slug="getfiles">
+            <title>getfiles.zip</title>
+            <description>Obtain list of files and subdirectories given a directory.</description>
+            <link>documents/matlab/getfiles.zip</link>
+        </code>
+        <code slug="delfiles">
+            <title>deleteFileList.m</title>
+            <description>Remove all files in list. Same list obtained via getfiles().</description>
+            <link>documents/matlab/deleteFileList.m</link>
+        </code>
+        <code slug="filtering">
+            <title>howToFilter.m</title>
+            <description>Filtering signals in Matlab with the Butterworth filter.</description>
+            <link>documents/matlab/howToFilter.m</link>
+        </code>
+    </category>
+
+    <category label="Python">
+        <code slug="tictactoe">
+            <title>tictactoe.py</title>
+            <description>Simple 2 player TicTacToe game in Python 3.</description>
+            <link>documents/python/tictactoe.py</link>
+        </code>
+        <code slug="egcd">
+            <title>egcd.py</title>
+            <description>Extended Euclidean algorithm. Finds GCD of two numbers and Bezout's coefficients. Python 2.</description>
+            <link>documents/python/egcd.py</link>
+        </code>
+    </category>
+
+    <category label="ActionScript 3">
+        <code slug="quickcode">
+            <title>QuickCode.zip</title>
+            <description>Rapid text encoder / decoder. Uses simple Caeser cypher with key for offset.</description>
+            <link>documents/actionscript/QuickCode.zip</link>
+        </code>
+    </category>
+
+    <category label="Java">
+        <code slug="coder">
+            <title>Coder.zip</title>
+            <description>Text encoder / decoder. Again, uses simple Caeser cypher with key for offset.</description>
+            <link>documents/java/Coder.zip</link>
+        </code>
+        <code slug="rwfile">
+            <title>RWFile.zip</title>
+            <description>Easily read and write text files.</description>
+            <link>documents/java/RWFile.zip</link>
+        </code>
+        <code slug="translator">
+            <title>Translator.zip</title>
+            <description>Read in text file containing string of nucleotides and translate to corresponding amino-acid string.</description>
+            <link>documents/java/Translator.zip</link>
+        </code>
+    </category>
+</code>

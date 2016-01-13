@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<projects>
+    <category label="Laboratory">
+        <project slug="semio">
+            <title>Semio</title>
+            <description>An objective semiology diagnostic tool that allows doctors to select patient symptoms pre/during/post seizure. These symptoms are then passed through an algorithm which determines probabilities of seizure origin for different regions of the brain (using data accumulated from numerous literary sources). These probabilities are then used to render a 3D brain which the user can interact with and rotate to view the most likely seizure onset zones. Program documentation and download are available at the link above.</description>
+            <link>http://www.bshanahan.info/semio</link>
+        </project>
+        <project slug="ratoperant">
+            <title>Affordable operant rat conditioning chamber with motion tracking</title>
+            <description>Over Summer 2013, working in the Cashlab at Massachussetts General Hospital, I helped to develop a cost-effective rat operant conditioning chamber with an additional system for tracking and recording the rat's movement in realtime. I used an Arduino microcontroller for controlling both the chamber and the tracking system.</description>
+            <link>none</link>
+        </project>
+        <project slug="hfodetect">
+            <title>HFO detection in patient EEGs</title>
+            <description>Over Summer 2014, I worked with Omar Ahmed in the Cashlab at Massachussetts General Hospital on a detection algorithm for high frequency oscillations (HFOs) in local field potential (LFP) recordings of patients' seizures. This algorithm was later used in a paper on the efficacy of HFOs in detecting seizure onset zone.</description>
+            <link>none</link>
+        </project>
+        <project slug="asymmetry">
+            <title>Analysis of asymmetry in LFPs</title>
+            <description>During the 2014-2015 scholarly year and into the following summer, I worked with Omar Ahmed on detailed analysis of the shape of brain rhythms in order to discern their efficicacy as a predictive metric in any and all senses. We developed a large number of Matlab tools for analyzing the asymmetry of brain rhythms and found some intriguing results.</description>
+            <link>none</link>
+        </project>
+    </category>
+
+    <category label="Coursework">
+        <project slug="connectivity">
+            <title>Connectivity Schemes in a Recurrent Neural Network</title>
+            <description>Final research project for course in Computational Neuroscience. My partner and I modeled large-scale recurrent neural networks and observed the effect that different network connectivity schemes played on the network's activity. Supplementary code can be found &lt;a href='documents/projects/connectivity-schemes/code-export.zip' target='_blank'&gt;here&lt;/a&gt;.</description>
+            <link>documents/projects/connectivity-schemes/ShanahanLee2015.pdf</link>
+        </project>
+    </category>
+
+    <category label="Extracurricular">
+        <project slug="cnc">
+            <title>CNC router and CAM software</title>
+            <description>Working with a small group of Brown Students, I am helping to build a CNC router for the Brown Design Workshop in Prince Lab. We have some funding from the university and we plan to continue work into this year, eventually developing our own easy-to-use CAM software for the machine once physical construction has been completed.</description>
+            <link>none</link>
+        </project>
+        <project slug="artbeat">
+            <title>Brown University Artbeat</title>
+            <description>I am a cofounder of Artbeat, a student organization of Brown University that is committed bringing Providence's rich artistic community to all the students of College Hill. We started in the beginning of 2015, but since our debut we have garnered a lot of momentum. We host biweekly art workshops, have held a number of fundraisers (including an art and music night at the Flatbread Company on Thayer Street, the sale of over 300 Spring Weekend tank tops to Brown University students, and the design and sale of t-shirts for Thayer Street's very own Festival Fete), and have had success with our most recent project: a pop-up art gallery on Thayer Street made of modular display boards which can be relocated to any newly vacant building or display window on the street.</description>
+            <link>http://www.anartbeataway.org/</link>
+        </project>
+    </category>
+    
+    <category label="Other cool stuff">
+        <project slug="audiolux">
+            <title>Audiolux</title>
+            <description>An audio visualizer that I built for an art class while studying in France. I was inspired by a desire to create an interactive lightshow in my room that responds to the current music playing. Audiolux currently runs off of an Arduino and by analyzing the amplitude of the incoming audio signal (via a 3.5mm stereo jack) it is able to create very cool visual effects on its attached NeoPixel RGB LED strip. The strip is covered on the front by a material that diffuses the light from the LEDs giving it a very cool effect.</description>
+            <link>documents/projects/audiolux/audiolux.zip</link>
+        </project>
+    </category>
+</projects>

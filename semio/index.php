@@ -33,10 +33,11 @@
                 <p>Our apologies: the documentation for this tool is currently under construction. Please check back soon for updates.</p>
             </div>
             <div class="page-header">
-                <p>Download the current distribution here: <a href="distro/Semio.rar" target="_blank">Semio.rar</a></p>
+                <p>Download the current distribution <a href="distro/Semio.rar" target="_blank">here</a>.</p>
+                <p>Or check out the <a href="https://github.com/benshanahan1/semio" target="_blank">source code</a>.</p>
             </div>
-            <div class="container" style="text-align:center;">
-                <img src="image/brain.png" width="400px" height="400px" alt="Brain">
+            <div class="container">
+                <img src="image/brain.png" class="img-responsive center-block" width="400px" height="400px" alt="Brain">
             </div>
         </div>
 

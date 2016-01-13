@@ -2,7 +2,7 @@
 
 class Pages extends CI_Controller {
 
-    public function view($page = 'home')
+    public function view($page = 'about-me')
     {
         if (! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
         {
@@ -10,7 +10,10 @@ class Pages extends CI_Controller {
             show_404();
         }
 
-        $data['title'] = ucfirst($page);  // Capitalize the first letter
+        $search = "-";
+        $replace = " ";
+        $title = str_replace($search, $replace, $page);  // search and replace in title
+        $data['title'] = ucwords($title);  // capitalize first letter of each word
 
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);

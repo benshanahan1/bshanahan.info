@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<artwork>
+    <category label="Photography">
+        <artwork slug="paris">
+            <title>Paris (Fall 2015)</title>
+            <description>Photographs from my semester abroad in Paris during the Fall of 2015.</description>
+            <link>paris-gallery</link>
+        </artwork>
+    </category>
+
+    <category label="Artwork">
+        <artwork slug="graphics">
+            <title>Graphics (ink and digital)</title>
+            <description>Graphic designs drawn with ink. Frequently I will scan my designs, vectorize them, and then colorize them with computer software such as Adobe Photoshop and Illustrator.</description>
+            <link>graphics-gallery</link>
+        </artwork>
+    </category>
+</artwork>

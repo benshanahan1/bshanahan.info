@@ -17,6 +17,16 @@ function reveal(div_id) {
     });
 }
 
+// toggle section
+function toggle(id) {
+    $(id).toggle("show");
+}
+
+// replace text on hover
+function replacetext(id, text) {
+    $(id).text(text);
+}
+
 // delegate function for lightbox bootstrap plugin
 $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     event.preventDefault();
