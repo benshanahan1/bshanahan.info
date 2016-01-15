@@ -3,7 +3,7 @@
                 <h2>Projects</h2>
                 <p>Here are a number of the projects that I have finished or am currently working on. If something catches your eye and you would like to hear more about it, please don't hesitate to <a href="about" target="_blank">contact me</a>!</p>
 
-                <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                <div class="alert alert-info alert-dismissible fade in" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden=true>&times;</span>
                     </button>

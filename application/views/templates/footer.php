@@ -4,10 +4,22 @@
         <!-- Page footer -->
         <div class="footer">
             <div class="container">
-                <p class="muted credit">
+                <div style="padding-top:5px;padding-bottom:5px;">
                     <img src="images/favicon.png" width="16px" height="16px">
                     <span>Copyright &copy; <?php echo date("Y"); ?> Benjamin Shanahan</span>
-                </p>
+                </div>
+
+                <div style="padding-bottom:10px;text-align:center;">
+                    <a href="https://soundcloud.com/bshanahan" alt="SoundCloud" style="padding-left:4px;padding-right:4px;" target="_blank">
+                        <img src="images/icon/soundcloud.png" width="48px" height="48px">
+                    </a>
+                    <a href="https://play.spotify.com/user/benshanahan1" alt="Spotify" style="padding-left:4px;padding-right:4px;"  target="_blank">
+                        <img src="images/icon/spotify.png" width="48px" height="48px">
+                    </a>
+                    <a href="https://github.com/benshanahan1" alt="Github" style="padding-left:4px;padding-right:4px;" target="_blank">
+                        <img src="images/icon/github.png" width="48px" height="48px">
+                    </a>
+                </div>
             </div>
         </div>
 

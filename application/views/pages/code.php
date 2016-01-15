@@ -3,9 +3,9 @@
                 <h2>Open-Source Code Repository</h2>
                 <p>Here you can find code that I have written over the years in a number of languages, it's all open-source, so if you're having trouble finding something or a particular program doesn't have a noncompiled version, just email me and I will be sure to sort things out.</p>
                 <p>Or you can follow me on <a href="https://github.com/benshanahan1" target="_blank">GitHub</a>:</p>
-                <p><iframe src="https://ghbtns.com/github-btn.html?user=benshanahan1&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe></p>
+                <p><iframe src="https://ghbtns.com/github-btn.html?user=benshanahan1&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="280px" height="30px"></iframe></p>
                 
-                <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                <div class="alert alert-info alert-dismissible fade in" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden=true>&times;</span>
                     </button>

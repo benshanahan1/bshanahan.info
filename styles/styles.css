@@ -35,6 +35,12 @@ a:active {
     border-top: solid 1px lavender;
     padding-top: 10px;
 }
+.footer img {  /* for social icons */
+    opacity: .8;
+}
+.footer img:hover {  /* for social icons */
+    opacity: 1;
+}
 .muted {
     font-style: italic;
     font-size: 12pt;

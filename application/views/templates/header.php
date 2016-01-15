@@ -19,7 +19,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <meta name="Author" content="Benjamin Shanahan">
-        <meta name="Description" content="Benjamin Shanahan online portfolio website.">
+        <meta name="Description" content="Benjamin Shanahan online portfolio website; <?php echo $title; ?> page.">
         
         <!-- Humans.txt -->
         <link rel="author" href="humans.txt" />

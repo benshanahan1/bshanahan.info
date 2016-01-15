@@ -3,7 +3,7 @@
                 <h2>Artwork and Photography</h2>
                 <p>Below you can find some of the artwork and photography that I have created / taken over the past several years.</p>
 
-                <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                <div class="alert alert-info alert-dismissible fade in" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden=true>&times;</span>
                     </button>
