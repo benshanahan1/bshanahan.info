@@ -1,15 +1,9 @@
             <div class="container">
 
                 <h2>Projects</h2>
+                <p>Click on any project name to read more about it.</p>
                 <p>Listed here are a number of projects that I have finished or am currently still working on. If something catches your eye and you would like to hear more about it, please don't hesitate to <a href="about-me" target="_blank">contact me</a>!</p>
                 <p>Looking for my <a href="documents/ShanahanBenjaminResume.pdf" target="_blank">resume</a> instead?</p>
-
-                <div class="alert alert-info alert-dismissible fade in" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden=true>&times;</span>
-                    </button>
-                    Click on any project name to read more about it.
-                </div>
 
                 <?php
                     // load projects.xml and parse it
@@ -33,8 +27,9 @@
                 ?>
                 <div id="<?php echo $slug; ?>" class="page-content">
                     <div class="panel panel-default">
-                        <div class="panel-heading" style="background:#ccc;" onclick="toggle('#<?php echo $slug_content; ?>')">
-                            <span><?php echo $title ?></span>
+                        <div class="panel-heading" style="background:#ccc;height:50px;" onclick="toggle('#<?php echo $slug_content; ?>')">
+                            <span style="float:left;"><?php echo $title ?></span>
+                            <span style="float:right;"><a href="?q=<?php echo $slug; ?>" title="Link me"><img src="images/icon/hyperlink.png" height="30px" width="30px" /></a></span>
                         </div>
                         <div id="<?php echo $slug_content; ?>" class="panel-body" style="display:none;">
                             <?php if($thumbnail != "none") { ?>

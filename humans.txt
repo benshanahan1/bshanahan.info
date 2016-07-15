@@ -1,6 +1,6 @@
 /* AUTHOR */
 Benjamin Shanahan
-bshanahan.info/about-me
+http://bshanahan.info
 Boston, USA
 
 /* SITE */

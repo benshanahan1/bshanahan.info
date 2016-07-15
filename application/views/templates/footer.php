@@ -42,18 +42,30 @@
 
     <!-- Smooth scroll to location on page -->
     <?php
-        $do_scroll = isset($_GET['q']);
+        /* For some reason, isset() does not return 0 when false,
+           so we need to be explicit. */
+        if (isset($_GET['q'])) {
+            $do_scroll = 1;
+        } else {
+            $do_scroll = 0;
+        }
         if ($do_scroll) {
             $q = $_GET['q'];
+        } else {
+            $q = "";
         }
     ?>
     <script type="text/javascript">
         $(document).ready(function() {
             if (<?php echo $do_scroll ?>) {
-                var element = "#<?php echo $q; ?>_content";
-                $(element).show('fast');
-                // $(window).scrollTop($(element).offset().top);
-                $("html, body").animate({scrollTop: $(element).offset().top}, 1000);
+                var q = "<?php echo $q; ?>";
+                if (q != "") {  // only continue if q is defined
+                    var scrollTo = "#" + q;
+                    var showMe   = scrollTo + "_content";
+                    $(showMe).show('fast');
+                    // $(window).scrollTop($(element).offset().top);
+                    $("html, body").animate({scrollTop: $(scrollTo).offset().top}, 1000);
+                }
             }
         });
     </script>
