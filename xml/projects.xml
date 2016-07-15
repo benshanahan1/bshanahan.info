@@ -16,7 +16,7 @@
         <project slug="hfodetect">
             <title>HFO detection in patient EEGs</title>
             <thumbnail>none</thumbnail>
-            <description>Over Summer 2014, I worked with &lt;a href="http://www.omarlab.org"&gt;Omar Ahmed&lt;/a&gt; in the Cashlab at Massachussetts General Hospital on a detection algorithm for high frequency oscillations (HFOs) in local field potential (LFP) recordings of patients' seizures. This algorithm was used in research on the efficacy of HFOs in detecting seizure onset zone.</description>
+            <description>Over Summer 2014, I worked with &lt;a href="http://www.omarlab.org" target="_blank"&gt;Omar Ahmed&lt;/a&gt; in the Cashlab at Massachussetts General Hospital on a detection algorithm for high frequency oscillations (HFOs) in local field potential (LFP) recordings of patients' seizures. This algorithm was used in research on the efficacy of HFOs in detecting seizure onset zone. See the &lt;a href="https://github.com/benshanahan1/hfodetector" target="_blank"&gt;GitHub repo&lt;/a&gt; for the MATLAB code.</description>
             <link>none</link>
         </project>
         <project slug="shapeanalysis">
