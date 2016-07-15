@@ -19,11 +19,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <meta name="Author" content="Benjamin Shanahan">
-        <?php if ($title == "About me") { ?>
-        <meta name="Description" content="I am currently an undergraduate student at Brown University in Rhode Island, where I study Neuroscience and French, among other things. When I have the occasional free moment, I love to draw, make music, code, build and program electronic devices, and go running, rock climbing, and bicycling.">
-        <?php } else { ?>
-        <meta name="Description" content="Benjamin Shanahan online portfolio; <?php echo $title; ?> page.">
-        <?php } ?>
+        <meta name="Description" content="Benjamin Shanahan online portfolio website; <?php echo $title; ?> page.">
         
         <!-- Humans.txt -->
         <link rel="author" href="humans.txt" />
@@ -44,13 +40,19 @@
         <span class="hidden-xs"><br></span>
         <img src="images/header.png" class="img-responsive center-block" alt="Benjamin Shanahan">
 
-        <!-- Site navigation (hide this on xs sizing) -->
-        <div class="row text-center hidden-xs" id="navigation">
-            <a class="navlink" href="about-me">about me</a> //
-            <a class="navlink" href="projects">projects</a> //
-            <a class="navlink" href="code">code</a> //
-            <a class="navlink" href="artwork">artwork</a> //
-            <a class="navlink" href="documents/ShanahanBenjaminResume.pdf" target="_blank">resume</a>
+        <!-- Site navigation -->
+        <div class="row text-center" id="navigation">
+            <a class="navlink" href="about-me">about me</a>
+            <span class="hidden-xs">//</span><span class="visible-xs"><br></span>
+            <a class="navlink" href="projects">projects</a>
+            <span class="hidden-xs">//</span><span class="visible-xs"><br></span>
+            <a class="navlink" href="code">code</a>
+            <span class="hidden-xs">//</span><span class="visible-xs"><br></span>
+            <a class="navlink" href="artwork">artwork</a>
+            <span class="hidden-xs">//</span><span class="visible-xs"><br></span>
+            <a class="navlink" href="http://www.soundcloud.com/bshanahan/" target="_blank">music</a>
+            <span class="hidden-xs">//</span><span class="visible-xs"><br></span>
+            <a class="navlink" href="documents/ShanahanBenjaminResume2016.pdf" target="_blank">résumé</a>
         </div>
 
         <hr>

@@ -8,8 +8,18 @@
         </code>
         <code slug="smsig">
             <title>smsig.m</title>
-            <description>Function to smooth a signal with Gaussian windowing algorithm, given the signal and the window size.</description>
+            <description>Smooth signal via Gaussian windowing algorithm, given the signal and the window size.</description>
             <link>documents/matlab/smsig.m</link>
+        </code>
+        <code slug="parseargs">
+            <title>parseargs.m</title>
+            <description>Parse name/value arguments to permit easier function management.</description>
+            <link>documents/matlab/parseargs.m</link>
+        </code>
+        <code slug="mgrep">
+            <title>mgrep.m</title>
+            <description>Matlab GREP equivalent (or FINDSTR on Windows command line).</description>
+            <link>documents/matlab/mgrep.m</link>
         </code>
         <code slug="getfiles">
             <title>getfiles.zip</title>

@@ -13,7 +13,7 @@ class Pages extends CI_Controller {
         $search = "-";
         $replace = " ";
         $title = str_replace($search, $replace, $page);  // search and replace in title
-        $data['title'] = ucwords($title);  // capitalize first letter of each word
+        $data['title'] = ucfirst($title);  // capitalize first letter of each word
 
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);

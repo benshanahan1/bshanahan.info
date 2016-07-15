@@ -25,6 +25,7 @@
                         foreach ($category->artwork as $artwork) {
                             $slug = $artwork["slug"];
                             $title = $artwork->title;
+                            $thumbnail = $artwork->thumbnail;
                             $description = $artwork->description;
                             $link = $artwork->link;
                 ?>
@@ -33,8 +34,18 @@
                         <div class="panel-heading" style="background:#ccc;" onclick="toggle('#<?php echo $slug; ?>')">
                             <span><?php echo $title ?></span>
                         </div>
-                        <div id="<?php echo $slug; ?>" class="panel-body" style="display:none;">
-                            <p><?php echo $description; ?></p>
+                        <div id="<?php echo $slug; ?>" class="panel-body"> <!--style="display:none;">-->
+                            <?php if($thumbnail != "none") { ?>
+                            <div class="col-md-3 hidden-xs hidden-sm">
+                                <img class="center-block img-thumbnail" src="<? echo $thumbnail; ?>" width="200px" height="200px">
+                            </div>
+                            <div class="col-md-9">
+                            <?php } ?>
+                                <p><?php echo $description; ?></p>
+                            <?php if($thumbnail != "none") { ?>
+                            </div>
+                            <?php } ?>
+
                             <?php
                                 if ($link != "none") {
                             ?>

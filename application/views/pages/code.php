@@ -1,9 +1,10 @@
             <div class="container">
 
                 <h2>Open-Source Code Repository</h2>
-                <p>Here you can find code that I have written over the years in a number of languages, it's all open-source, so if you're having trouble finding something or a particular program doesn't have a noncompiled version, just email me and I will be sure to sort things out.</p>
-                <p>Or you can follow me on <a href="https://github.com/benshanahan1" target="_blank">GitHub</a>:</p>
+                <p>Listed on here is code that I have written over the years in a variety of languages. It's all open-source, so if you're having trouble finding something or a particular program doesn't have the code version available, just shoot me an <a href="about-me" target="_blank">email</a> and I'll get back to you as soon as possible.</p>
+                <p>You can also follow me on <a href="https://github.com/benshanahan1" target="_blank">GitHub</a>:</p>
                 <p><iframe src="https://ghbtns.com/github-btn.html?user=benshanahan1&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="280px" height="30px"></iframe></p>
+                <p>Looking for my <a href="documents/ShanahanBenjaminResume.pdf" target="_blank">resume</a> instead?</p>
                 
                 <div class="alert alert-info alert-dismissible fade in" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -38,7 +39,7 @@
                         </div>
                         <div id="<?php echo $download_id; ?>" class="panel-footer" style="display:none;">
                             <div style="text-align:center;">
-                                <kbd>[ <a href="<?php echo $link; ?>" style="color:#fff;" target="_blank">download code</a> ]</kbd><br>
+                                <kbd>[ <a href="<?php echo $link; ?>" style="color:#fff;" target="_blank">download <?php echo $title; ?></a> ]</kbd><br>
                             </div>
                         </div>
                     </div>
