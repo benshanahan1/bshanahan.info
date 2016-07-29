@@ -2,9 +2,9 @@
 <code>
     <category label="Matlab">
         <code slug="gettilt">
-            <title>getTilt.zip</title>
+            <title>gettilt.m</title>
             <description>Analyze coordinates of 3 tracker points on rat's head to determine if head is tilted or flat. Return boolean operator indicating if tilted.</description>
-            <link>documents/matlab/getTilt.zip</link>
+            <link>documents/matlab/gettilt.m</link>
         </code>
         <code slug="smsig">
             <title>smsig.m</title>

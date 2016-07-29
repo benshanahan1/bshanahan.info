@@ -1,17 +1,9 @@
-function sm = smsig(data, windowSize)
-% sm = smsig(data, windowSize)
+function sm = smsig(data,windowSize)
+%SMSIG Smooth data using Gaussian window
+%   SMSIG(DATA,WINDOWSIZE) Smooth inputted data via a Gaussian
+%   window function.
 %
-% Benjamin Shanahan, 20150421
-%
-% Smooth inputted data using a Gaussian window function.
-%
-% Parameters:
-%    data (vector) contains data to be smoothed
-%    windowSize (integer) size of window, ie number of data points to
-%                         smooth across
-%
-% Returns:
-%    sm (vector) contains smoothed data
+%21 April 2015, Benjamin Shanahan.
 
 if mod(windowSize, 2) ~= 0
     error('windowSize must be an even number.');
@@ -23,5 +15,3 @@ filt = filt / sum(filt); % normalize
 sm_pre = conv(data, filt); % convolve w filter
 
 sm = sm_pre(half : (end - half)); % return
-
-return;
