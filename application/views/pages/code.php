@@ -7,12 +7,12 @@
                 <p><iframe src="https://ghbtns.com/github-btn.html?user=benshanahan1&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="280px" height="30px"></iframe></p>
                 <p>Looking for my <a href="documents/ShanahanBenjaminResume.pdf" target="_blank">resume</a> instead?</p>
                 
-                <div class="alert alert-info alert-dismissible fade in" role="alert">
+                <!-- <div class="alert alert-info alert-dismissible fade in" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden=true>&times;</span>
                     </button>
                     Click on any description to download the corresponding code.
-                </div>
+                </div> -->
 
                 <?php
                     // load code.xml and parse it

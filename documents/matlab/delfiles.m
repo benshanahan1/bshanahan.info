@@ -1,12 +1,11 @@
-function deleteFileList(fileList, debug)
-% deleteAll(fileList, debug)
+function delfiles(fileList,debug)
+%DELFILES Delete all files in a list
+%   DELFILES(FILELIST,DEBUG) Takes a list of files (cell) and removes all that exist. If parameter
+%   'debug' is set to true (default false), debug output will be printed to
+%   command window. Good for cleaning up processed_data/ file directory and
+%   removing old files which are replicated in all LFP data folders.
 %
-% Benjamin Shanahan, 20150430
-%
-% Takes a list of files (cell) and removes all that exist. If parameter
-% 'debug' is set to true (default false), debug output will be printed to
-% command window. Good for cleaning up processed_data/ file directory and
-% removing old files which are replicated in all LFP data folders.
+%30 April 2015, Benjamin Shanahan.
 
 if ~exist('debug', 'var')
     debug = false;
@@ -35,5 +34,3 @@ if debug
         out('No files discovered or deleted.');
     end
 end
-
-return;
