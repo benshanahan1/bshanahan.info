@@ -71,5 +71,11 @@
             <description>Version two of my original audio visualizer (see project directly above). Using a more powerful microprocessor, Audiolux 2 performs a realtime Fast Fourier Transform on incoming audio from a line-in connection. This analyzed spectral data is then displayed in two ways: on a spectrum analyzer (SA) which sets each RGB LED's color to the intensity of the signal in the corresponding frequency bin, and on a bass visualizer (BV) which sends a pulse of light upwards whenever the lower frequency bins pass above a pre-set threshold. The color of the pulse represents the amplitude of the bass in the given bins. After revising the circuit, I then implemented it on a solderable bread board, and fit it into a small project box to make it self-contained. I also connected the RGB LED voltage, signal, and ground outputs to rows of multiple headers so that it is possible to extend the light display by adding up to six of each type of LED strip. The "view project" link below contains a folder of images and videos of the project in order to give you a better feel for its design, layout, and function.&lt;br&gt;&lt;br&gt;If you would like to view the code involved and a circuit schematic, visit the &lt;a href="https://www.github.com/benshanahan1/audiolux2" target="_blank"&gt;project repository&lt;/a&gt; on GitHub.</description>
             <link>https://drive.google.com/folderview?id=0B0o_ibOPs__CRDcxNHRzSUI5RW8&amp;usp=drive_web</link>
         </project>
+        <project slug="phoenix1">
+            <title>Phoenix 1 Quadcopter</title>
+            <thumbnail>images/thumbnail/projects/phoenix1quad.jpg</thumbnail>
+            <description>Custom-built quadcopter for aerial photography and video. The quadcopter can perform autonomous missions in addition to standard RF control, thanks to the onboard GPS and telemetry systems. This is the first quadcopter I've built, and the hope is to continue to upgrade it bit-by-bit (for example, adding a camera gimbal, installing various sensors, upgrading the motors, etc.) as my budget allows.</description>
+            <link>https://drive.google.com/drive/u/0/folders/0B0o_ibOPs__CdjhJUHJ0Qm1EQUU</link>
+        </project>
     </category>
 </projects>
