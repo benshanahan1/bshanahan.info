@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <code>
     <category label="Matlab">
+        <code slug="AdjustOutliers">
+            <title>AdjustOutliers.m</title>
+            <description>Adjust data points that lie outside (above or below, non-inclusive) specified boundary condition(s) so that they are in line with the rest of the inputted data vector.</description>
+            <link>documents/matlab/AdjustOutliers.m</link>
+        </code>
         <code slug="delfiles">
             <title>delfiles.m</title>
             <description>Delete all files in a list.</description>

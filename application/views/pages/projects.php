@@ -29,7 +29,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading" style="background:#ccc;height:50px;" onclick="toggle('#<?php echo $slug_content; ?>')">
                             <span style="float:left;"><?php echo $title ?></span>
-                            <span style="float:right;"><a href="?q=<?php echo $slug; ?>" title="Link me"><img src="images/icon/hyperlink.png" height="30px" width="30px" /></a></span>
+                            <span class="col-md-1 hidden-xs hidden-sm" style="float:right;"><a href="?q=<?php echo $slug; ?>" title="Link me"><img src="images/icon/hyperlink.png" height="30px" width="30px" /></a></span>
                         </div>
                         <div id="<?php echo $slug_content; ?>" class="panel-body" style="display:none;">
                             <?php if($thumbnail != "none") { ?>

@@ -8,19 +8,19 @@
             <link>http://www.bshanahan.info/semio</link>
         </project>
         <project slug="ratoperant">
-            <title>Affordable operant rat conditioning chamber with motion tracking</title>
+            <title>Arduino operant conditioning</title>
             <thumbnail>none</thumbnail>
             <description>Over Summer 2013, working in the Cashlab at Massachussetts General Hospital with Eyal Kimchi, I helped to develop a cost-effective rat operant conditioning chamber with an additional system for motion-tracking and recording the rat's movement in realtime. I used an Arduino microcontroller for controlling both the chamber and the tracking system.</description>
             <link>http://www.kimchilab.org/opbox/</link>
         </project>
         <project slug="hfodetect">
-            <title>HFO detection in patient EEGs</title>
+            <title>EEG HFO detection</title>
             <thumbnail>none</thumbnail>
             <description>Over Summer 2014, I worked with &lt;a href="http://www.omarlab.org" target="_blank"&gt;Omar Ahmed&lt;/a&gt; in the Cashlab at Massachussetts General Hospital on a detection algorithm for high frequency oscillations (HFOs) in local field potential (LFP) recordings of patients' seizures. This algorithm was used in research on the efficacy of HFOs in detecting seizure onset zone.</description>
             <link>none</link>
         </project>
         <project slug="shapeanalysis">
-            <title>Analysis of shape of LFPs</title>
+            <title>Analysis of LFP shape</title>
             <thumbnail>images/thumbnail/projects/asym.png</thumbnail>
             <description>Since 2014 I have been working with Omar Ahmed on the detailed analysis of brain rhythm shape in rats in order to discern the rhythm's efficicacy as a predictive metric for various aspects of spiking. We have developed a large number of Matlab tools for analyzing brain rhythms and have discovered intriguing results. A paper is currently in the works.</description>
             <link>none</link>
@@ -29,13 +29,13 @@
 
     <category label="Coursework">
         <project slug="connectivity">
-            <title>Connectivity Schemes in a Recurrent Neural Network</title>
+            <title>Connectivity schemes</title>
             <thumbnail>images/thumbnail/projects/connectivity.jpg</thumbnail>
             <description>Final research project for course in Computational Neuroscience. My partner and I modeled large-scale recurrent neural networks and observed the effect that different network connectivity schemes played on the network's activity. Supplementary code can be found &lt;a href='documents/projects/connectivity-schemes/code-export.zip' target='_blank'&gt;here&lt;/a&gt;.</description>
             <link>documents/projects/connectivity-schemes/ShanahanLee2015.pdf</link>
         </project>
         <project slug="neur1600">
-            <title>Aplysia and Frog Labs (NEUR1600)</title>
+            <title>Neuroscience methods lab</title>
             <thumbnail>none</thumbnail>
             <description>Report and presentation for two separate units of my NEUR1600 course at Brown. This class, taught by Professor John Stein, focused on laboratory methods such as dissections, electrophysiological recordings from bullfrogs and aplysia, and writing up scientific findings. In order to make reporting not-necessarily-unique findings easier, we pretended that the organisms we were conducting research on came from NASA's most recent manned mission to Mars! Aplysia lab write-up on the electrophysiological properties of the neurons within the abdominal ganglion can be found &lt;a href="documents/projects/neur1600/aplysia_full.pdf" target="_blank"&gt;here&lt;/a&gt;, along with my &lt;a href="documents/projects/neur1600/aplysia_discuss.pdf" target="_blank"&gt;individual discussion section&lt;/a&gt;. Presentation on bullfrog receptive fields can be found &lt;a href="documents/projects/neur1600/frogrf.pdf" target="_blank"&gt;here&lt;/a&gt;.
             </description>
@@ -45,7 +45,7 @@
 
     <category label="Extracurricular">
         <project slug="cnc">
-            <title>CNC router and CAM software</title>
+            <title>CNC router</title>
             <thumbnail>none</thumbnail>
             <description>Working with a small group of fellow Brown University students, I am helping to build a CNC router for the school's Design Workshop. We have minor funding from the university and we plan to continue work into this year, eventually developing our own easy-to-use CAM software for the machine once physical construction has been completed.</description>
             <link>none</link>
@@ -70,6 +70,12 @@
             <thumbnail>images/thumbnail/projects/audiolux2.jpg</thumbnail>
             <description>Version two of my original audio visualizer (see project directly above). Using a more powerful microprocessor, Audiolux 2 performs a realtime Fast Fourier Transform on incoming audio from a line-in connection. This analyzed spectral data is then displayed in two ways: on a spectrum analyzer (SA) which sets each RGB LED's color to the intensity of the signal in the corresponding frequency bin, and on a bass visualizer (BV) which sends a pulse of light upwards whenever the lower frequency bins pass above a pre-set threshold. The color of the pulse represents the amplitude of the bass in the given bins. After revising the circuit, I then implemented it on a solderable bread board, and fit it into a small project box to make it self-contained. I also connected the RGB LED voltage, signal, and ground outputs to rows of multiple headers so that it is possible to extend the light display by adding up to six of each type of LED strip. The "view project" link below contains a folder of images and videos of the project in order to give you a better feel for its design, layout, and function.&lt;br&gt;&lt;br&gt;If you would like to view the code involved and a circuit schematic, visit the &lt;a href="https://www.github.com/benshanahan1/audiolux2" target="_blank"&gt;project repository&lt;/a&gt; on GitHub.</description>
             <link>https://drive.google.com/folderview?id=0B0o_ibOPs__CRDcxNHRzSUI5RW8&amp;usp=drive_web</link>
+        </project>
+        <project slug="phoenix1">
+            <title>Phoenix 1 Quadcopter</title>
+            <thumbnail>images/thumbnail/projects/phoenix1quad.jpg</thumbnail>
+            <description>Custom-built quadcopter for aerial photography and video. The quadcopter can perform autonomous missions in addition to standard RF control, thanks to the onboard GPS and telemetry systems. This is the first quadcopter I've built, and the hope is to continue to upgrade it bit-by-bit (for example, adding a camera gimbal, installing various sensors, upgrading the motors, etc.) as my budget allows.</description>
+            <link>https://drive.google.com/drive/u/0/folders/0B0o_ibOPs__CdjhJUHJ0Qm1EQUU</link>
         </project>
     </category>
 </projects>
