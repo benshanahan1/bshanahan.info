@@ -10,19 +10,19 @@
         <project slug="ratoperant">
             <title>Affordable operant rat conditioning chamber with motion tracking</title>
             <thumbnail>none</thumbnail>
-            <description>Over Summer 2013, working in the Cashlab at Massachussetts General Hospital, I helped to develop a cost-effective rat operant conditioning chamber with an additional system for motion-tracking and recording the rat's movement in realtime. I used an Arduino microcontroller for controlling both the chamber and the tracking system.</description>
-            <link>none</link>
+            <description>Over Summer 2013, working in the Cashlab at Massachussetts General Hospital with Eyal Kimchi, I helped to develop a cost-effective rat operant conditioning chamber with an additional system for motion-tracking and recording the rat's movement in realtime. I used an Arduino microcontroller for controlling both the chamber and the tracking system.</description>
+            <link>http://www.kimchilab.org/opbox/</link>
         </project>
         <project slug="hfodetect">
             <title>HFO detection in patient EEGs</title>
             <thumbnail>none</thumbnail>
-            <description>Over Summer 2014, I worked with &lt;a href="http://www.omarlab.org" target="_blank"&gt;Omar Ahmed&lt;/a&gt; in the Cashlab at Massachussetts General Hospital on a detection algorithm for high frequency oscillations (HFOs) in local field potential (LFP) recordings of patients' seizures. This algorithm was used in research on the efficacy of HFOs in detecting seizure onset zone. See the &lt;a href="https://github.com/benshanahan1/hfodetector" target="_blank"&gt;GitHub repo&lt;/a&gt; for the MATLAB code.</description>
+            <description>Over Summer 2014, I worked with &lt;a href="http://www.omarlab.org" target="_blank"&gt;Omar Ahmed&lt;/a&gt; in the Cashlab at Massachussetts General Hospital on a detection algorithm for high frequency oscillations (HFOs) in local field potential (LFP) recordings of patients' seizures. This algorithm was used in research on the efficacy of HFOs in detecting seizure onset zone.</description>
             <link>none</link>
         </project>
         <project slug="shapeanalysis">
             <title>Analysis of shape of LFPs</title>
             <thumbnail>images/thumbnail/projects/asym.png</thumbnail>
-            <description>Since 2014 I have been working with Omar Ahmed on the detailed analysis of brain rhythm shape in rats in order to discern the rhythm's efficicacy as a predictive metric for various aspects of spiking. We have developed a large number of Matlab tools for analyzing brain rhythms and have discovered intriguing results. We are aiming to publish a paper detailing our results by July of this year.</description>
+            <description>Since 2014 I have been working with Omar Ahmed on the detailed analysis of brain rhythm shape in rats in order to discern the rhythm's efficicacy as a predictive metric for various aspects of spiking. We have developed a large number of Matlab tools for analyzing brain rhythms and have discovered intriguing results. A paper is currently in the works.</description>
             <link>none</link>
         </project>
     </category>
