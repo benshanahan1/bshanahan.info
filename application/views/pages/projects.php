@@ -3,7 +3,6 @@
                 <h2>Projects</h2>
                 <p>Click on any project name to read more about it.</p>
                 <p>Listed here are a number of projects that I have finished or am currently still working on. If something catches your eye and you would like to hear more about it, please don't hesitate to <a href="about-me" target="_blank">contact me</a>!</p>
-                <p>Looking for my <a href="documents/ShanahanBenjaminResume.pdf" target="_blank">resume</a> instead?</p>
 
                 <?php
                     // load projects.xml and parse it
