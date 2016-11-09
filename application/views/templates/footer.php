@@ -82,7 +82,8 @@
     <link href="styles/prettyPhoto.css" rel="stylesheet" type="text/css">
 
     <!-- Google fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Play|Nunito:300' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Play|Nunito:300' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Nunito|Work+Sans:300' rel='stylesheet' type='text/css'>
 
     <!-- Google analytics tracking code -->
     <?php include_once("analyticstracking.php"); ?>
