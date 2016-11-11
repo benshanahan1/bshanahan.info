@@ -9,7 +9,7 @@
                         <h2>About me</h2>
                         <p>I am currently a senior at Brown University in Rhode Island, where I study Neuroscience and French, among other things. In the occasional free moment, I love to draw, make music, code, build and program electronic devices, and go running, rock climbing, and bicycling.</p>
                         <p>I am currently working on an undergraduate thesis with the <a href="http://www.braingate.org" target="_blank">BrainGate2</a> lab at Brown.</p>
-                        <p>You can find my up-to-date <a href="documents/ShanahanBenjaminResume.pdf" target="_blank">resume</a> here.</p>
+                        <p>You can find my up-to-date <a href="documents/ShanahanBenjaminCV.pdf" target="_blank">resume</a> here.</p>
                     </div>
 
                     <div class="offset3 col-md-9" style="padding-bottom:20px;">

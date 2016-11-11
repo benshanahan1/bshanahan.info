@@ -50,7 +50,7 @@
             <a class="navlink" href="projects">projects</a> //
             <a class="navlink" href="code">code</a> //
             <a class="navlink" href="artwork">artwork</a> //
-            <a class="navlink" href="documents/ShanahanBenjaminResume.pdf" target="_blank">resume</a>
+            <a class="navlink" href="documents/ShanahanBenjaminCV.pdf" target="_blank">curriculum vitae</a>
         </div>
 
         <hr>
