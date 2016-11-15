@@ -83,7 +83,7 @@
 
     <!-- Google fonts -->
     <!-- <link href='https://fonts.googleapis.com/css?family=Play|Nunito:300' rel='stylesheet' type='text/css'> -->
-    <link href='https://fonts.googleapis.com/css?family=Play|Nunito|Work+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Play|Work+Sans' rel='stylesheet' type='text/css'>
 
     <!-- Google analytics tracking code -->
     <?php include_once("analyticstracking.php"); ?>
