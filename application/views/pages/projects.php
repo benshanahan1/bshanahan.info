@@ -26,7 +26,7 @@
                 ?>
                 <div id="<?php echo $slug; ?>" class="page-content">
                     <div class="panel panel-default">
-                        <div class="panel-heading" style="background:#ccc;height:50px;" onclick="toggle('#<?php echo $slug_content; ?>')">
+                        <div class="panel-heading panel-style" style="height:50px;" onclick="toggle('#<?php echo $slug_content; ?>')">
                             <span style="float:left;"><?php echo $title ?></span>
                             <span class="col-md-1 hidden-xs hidden-sm" style="float:right;"><a href="?q=<?php echo $slug; ?>" title="Link me"><img src="images/icon/hyperlink.png" height="30px" width="30px" /></a></span>
                         </div>

@@ -46,6 +46,9 @@ a:active {
     font-size: 12pt;
     font-color: #333333;
 }
+.panel-style {
+    background: #eeeeee;
+}
 
 #navigation {
     margin-right: auto;

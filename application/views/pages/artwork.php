@@ -23,7 +23,7 @@
                 ?>
                 <div class="page-content">
                     <div class="panel panel-default">
-                        <div class="panel-heading" style="background:#ccc;" onclick="toggle('#<?php echo $slug; ?>')">
+                        <div class="panel-heading panel-style" onclick="toggle('#<?php echo $slug; ?>')">
                             <span><?php echo $title ?></span>
                         </div>
                         <div id="<?php echo $slug; ?>" class="panel-body"> <!--style="display:none;">-->
