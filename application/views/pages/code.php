@@ -34,7 +34,8 @@
                 ?>
                 <div class="page-content">
                     <div class="panel panel-default">
-                        <div id="<?php echo $slug; ?>" class="panel-body panel-style" onclick="toggle('#<?php echo $download_id;?>')">
+                        <!-- panel-body provides darker gray toggle -->
+                        <div id="<?php echo $slug; ?>" class="panel-heading panel-style" onclick="toggle('#<?php echo $download_id;?>')">
                             <?php echo $description; ?>
                         </div>
                         <div id="<?php echo $download_id; ?>" class="panel-footer" style="display:none;">
