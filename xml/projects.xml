@@ -2,7 +2,7 @@
 <projects>
     <category label="Laboratory / Research">
         <project slug="semio">
-            <title>Semio</title>
+            <title>Semiology Diagnostic Tool</title>
             <thumbnail>images/thumbnail/projects/semio.jpg</thumbnail>
             <description>An objective semiology diagnostic tool that allows doctors to select patient symptoms pre/during/post seizure. These symptoms are then passed through an algorithm which determines probabilities of seizure origin for different regions of the brain (using data accumulated from numerous literary sources). These probabilities are then used to render a 3D brain which the user can interact with and rotate to view the most likely seizure onset zones. Program documentation and download are available at the link below.</description>
             <link>http://www.bshanahan.info/semio</link>
@@ -28,6 +28,12 @@
     </category>
 
     <category label="Coursework">
+        <project slug="choroidplexus">
+            <title>Choroidal Epithelium Dynamics</title>
+            <thumbnail>none</thumbnail>
+            <description>Final research paper in Neural Dynamics course taught by Professor Christopher Moore. Paper discusses how the periodic activation during sleep of inhibitory interneurons by choroidal epithelial cells in the third ventricle generates fast spindles.</description>
+            <link>none</link>
+        </project>
         <project slug="connectivity">
             <title>Connectivity schemes</title>
             <thumbnail>images/thumbnail/projects/connectivity.jpg</thumbnail>
@@ -44,17 +50,23 @@
     </category>
 
     <category label="Extracurricular">
-        <project slug="cnc">
-            <title>CNC router</title>
-            <thumbnail>none</thumbnail>
-            <description>Working with a small group of fellow Brown University students, I am helping to build a CNC router for the school's Design Workshop. We have minor funding from the university and we plan to continue work into this year, eventually developing our own easy-to-use CAM software for the machine once physical construction has been completed.</description>
-            <link>none</link>
-        </project>
         <project slug="artbeat">
             <title>Artbeat</title>
             <thumbnail>images/thumbnail/projects/artbeat.jpg</thumbnail>
             <description>I am a cofounder of Artbeat, a student organization at Brown University that is committed bringing Providence's rich artistic community to all the students of College Hill. We started in the beginning of 2015, but since our debut we have garnered a lot of momentum. We host biweekly art workshops, have held a number of fundraisers (including an art and music night at the Flatbread Company on Thayer Street, the sale of over three hundred Spring Weekend tank tops to Brown University students, and the design and sale of t-shirts for Thayer Street's very own Festival Fete), and have had success with our most recent project: a pop-up art gallery on Thayer Street made of modular display boards which can be relocated to any newly vacant building or display window on the street. We recently were promoted to a Category 2 student group and now receive limited funding from the university, to supplement our grants and fundraising.</description>
             <link>http://www.anartbeataway.org/</link>
+        </project>
+        <project slug="uavclub">
+            <title>Brown UAV Club</title>
+            <thumbnail>images/thumbnail/projects/uavclub.jpg</thumbnail>
+            <description>I am a core member of the Brown Unmanned Aerial Vehicle (UAV). With funding from the University, we develop unmanned aerial vehicles, usually quadcopters. Our most recent project is an FPV-enabled hexacopter that will be used for capturing high-resolution aerial footage.</description>
+            <link>http://brownuav.weebly.com/</link>
+        </project>
+        <project slug="cnc">
+            <title>CNC router</title>
+            <thumbnail>none</thumbnail>
+            <description>Working with a small group of fellow Brown University students, I am helping to build a CNC router for the school's Design Workshop. We have minor funding from the university and we plan to continue work into this year, eventually developing our own easy-to-use CAM software for the machine once physical construction has been completed.</description>
+            <link>none</link>
         </project>
     </category>
     

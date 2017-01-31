@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!-- 
+
+This site is coded in its entirety by Benjamin Shanahan (ben@bshanahan.info).
+Please see http://bshanahan.info/humans.txt for more information. 
+
+-->
+
 <html>
     
     <head>

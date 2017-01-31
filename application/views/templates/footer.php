@@ -15,11 +15,11 @@
             <div class="container">
                 <div style="padding-top:5px;padding-bottom:5px;">
                     <span class="hidden-xs">
-                        <img src="images/favicon.png" width="16px" height="16px">
+                        <!-- <img src="images/favicon.png" width="16px" height="16px"> -->
                         Copyright &copy; <?php echo date("Y"); ?> Benjamin Shanahan
                     </span>
                     <span class="visible-xs hidden-sm">
-                        <img src="images/favicon.png" width="16px" height="16px">
+                        <!-- <img src="images/favicon.png" width="16px" height="16px"> -->
                         Copyright &copy; <?php echo date("Y"); ?> B. Shanahan
                     </span>
                 </div>
@@ -37,6 +37,11 @@
                 </div>
             </div>
         </div>
+
+        <!-- Include highlight.js -->
+        <link rel="stylesheet" href="scripts/highlight.js/styles/default.css">
+        <script src="scripts/highlight.js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
 
     </body>
 
@@ -83,7 +88,7 @@
 
     <!-- Google fonts -->
     <!-- <link href='https://fonts.googleapis.com/css?family=Play|Nunito:300' rel='stylesheet' type='text/css'> -->
-    <link href='https://fonts.googleapis.com/css?family=Play|Work+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Crimson+Text' rel='stylesheet' type='text/css'>
 
     <!-- Google analytics tracking code -->
     <?php include_once("analyticstracking.php"); ?>
