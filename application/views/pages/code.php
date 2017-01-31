@@ -1,6 +1,6 @@
             <div class="container">
 
-                <h2>Code Repository</h2>
+                <h2>Code Snippets</h2>
                 <p>Use the below tool to browse through the code snippets. If you'd like to clone the repo or any part of the code within it, it can be found <a href="https://github.com/benshanahan1/coderepo" target="_blank">here</a>.</p>
                 <p><iframe src="https://ghbtns.com/github-btn.html?user=benshanahan1&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="280px" height="30px"></iframe></p>
                 
