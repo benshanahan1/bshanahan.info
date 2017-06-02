@@ -8,8 +8,8 @@
 
                     <div class="col-md-9">
                         <h2>About me</h2>
-                        <p>I am currently a senior at Brown University in Rhode Island, where I study Neuroscience and French, among other things. In the occasional free moment, I love to code, draw, make music, and go running, rock climbing, and bicycling. My recent projects revolve around the Internet of Things and the integration of the physical world with the web.</p>
-                        <p>I am currently researching and writing an undergraduate thesis with the <a href="http://www.braingate.org" target="_blank">BrainGate</a> lab at Brown, exploring different techniques for differentiating behavioral state based on brain activity.</p>
+                        <p>I recently graduated Magna Cum Laude from Brown University in Rhode Island with an Sc.B. in Neuroscience with Honors. In the occasional free moment, I love to code, draw, make music, and go running, rock climbing, and bicycling. My recent projects revolve around the Internet of Things and the integration of the physical world with the web.</p>
+                        <p>Starting this summer, I will be officially joining the BrainGate lab at Brown as a research engineer.</p>
                         <p>You can find my current <a href="documents/ShanahanBenjaminCV.pdf" target="_blank">CV</a> here.</p>
                     </div>
 
