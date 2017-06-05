@@ -53,14 +53,14 @@
         <project slug="artbeat">
             <title>Artbeat</title>
             <thumbnail>images/thumbnail/projects/artbeat.jpg</thumbnail>
-            <description>I am a cofounder of Artbeat, a student organization at Brown University that is committed bringing Providence's rich artistic community to all the students of College Hill. We started in the beginning of 2015, but since our debut we have garnered a lot of momentum. We host biweekly art workshops, have held a number of fundraisers (including an art and music night at the Flatbread Company on Thayer Street, the sale of over three hundred Spring Weekend tank tops to Brown University students, and the design and sale of t-shirts for Thayer Street's very own Festival Fete), and have had success with our most recent project: a pop-up art gallery on Thayer Street made of modular display boards which can be relocated to any newly vacant building or display window on the street. We recently were promoted to a Category 2 student group and now receive limited funding from the university, to supplement our grants and fundraising.</description>
-            <link>http://www.anartbeataway.org/</link>
+            <description>I am a cofounder of &lt;a href='http://www.anartbeataway.org/'&gt;Artbeat&lt;/a&gt;, a student organization at Brown University that is committed bringing Providence's rich artistic community to all the students of College Hill. We started in the beginning of 2015, but since our debut we have garnered a lot of momentum. We host biweekly art workshops, have held a number of fundraisers (including an art and music night at the Flatbread Company on Thayer Street, the sale of over three hundred Spring Weekend tank tops to Brown University students, and the design and sale of t-shirts for Thayer Street's very own Festival Fete), and have had success with our most recent project: a pop-up art gallery on Thayer Street made of modular display boards which can be relocated to any newly vacant building or display window on the street. We recently were promoted to a Category 2 student group and now receive limited funding from the university, to supplement our grants and fundraising.</description>
+            <link>none</link>
         </project>
         <project slug="uavclub">
             <title>Brown UAV Club</title>
             <thumbnail>images/thumbnail/projects/uavclub.jpg</thumbnail>
-            <description>I am a core member of the Brown Unmanned Aerial Vehicle (UAV). With funding from the University, we develop unmanned aerial vehicles, usually quadcopters. Our most recent project is an FPV-enabled hexacopter that will be used for capturing high-resolution aerial footage.</description>
-            <link>http://brownuav.weebly.com/</link>
+            <description>I am a core member of the &lt;a href='http://brownuav.weebly.com/'&gt;Brown Unmanned Aerial Vehicle&lt;/a&gt; (UAV). With funding from the University, we develop unmanned aerial vehicles, usually quadcopters. Our most recent project is an FPV-enabled hexacopter that will be used for capturing high-resolution aerial footage.</description>
+            <link>none</link>
         </project>
         <project slug="cnc">
             <title>CNC router</title>

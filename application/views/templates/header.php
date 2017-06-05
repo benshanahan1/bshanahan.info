@@ -56,7 +56,7 @@ Please see http://bshanahan.info/humans.txt for more information.
         <div class="row text-center hidden-xs" id="navigation">
             <a class="navlink" href="about-me">about me</a> //
             <a class="navlink" href="projects">projects</a> //
-            <a class="navlink" href="code">code</a> //
+            <!-- <a class="navlink" href="code">code</a> // -->
             <a class="navlink" href="artwork">artwork</a> //
             <a class="navlink" href="documents/ShanahanBenjaminCV.pdf" target="_blank">curriculum vitae</a>
         </div>

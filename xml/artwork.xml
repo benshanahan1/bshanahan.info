@@ -4,7 +4,7 @@
         <artwork slug="paris">
             <title>Paris (Fall 2015)</title>
             <thumbnail>images/thumbnail/artwork/parisphotos.jpg</thumbnail>
-            <description>Photographs from my semester abroad in Paris during the Fall of 2015.</description>
+            <description>Photographs from my semester abroad in Paris (Fall 2015).</description>
             <link>paris-gallery</link>
         </artwork>
     </category>
@@ -13,7 +13,7 @@
         <artwork slug="graphics">
             <title>Graphics (ink and digital)</title>
             <thumbnail>images/thumbnail/artwork/graphics.jpg</thumbnail>
-            <description>Graphic designs drawn with ink. Frequently I will scan my designs, vectorize them, and then colorize them with computer software such as Adobe Photoshop and Illustrator. My brother and I have silk-screened a number of our designs onto shirts with the intention of starting a small t-shirt company.</description>
+            <description>Graphic design and miscellaneous artwork.</description>
             <link>graphics-gallery</link>
         </artwork>
     </category>

@@ -5,9 +5,9 @@
         <div class="text-center visible-xs" id="navigation-footer">
             <a class="navlink" href="about-me">about me</a><br>
             <a class="navlink" href="projects">projects</a><br>
-            <a class="navlink" href="code">code</a><br>
+            <!-- <a class="navlink" href="code">code</a><br> -->
             <a class="navlink" href="artwork">artwork</a><br>
-            <a class="navlink" href="documents/ShanahanBenjaminResume.pdf" target="_blank">resume</a>
+            <a class="navlink" href="documents/ShanahanBenjaminCV.pdf" target="_blank">curriculum vitae</a>
         </div>
 
         <!-- Page footer -->

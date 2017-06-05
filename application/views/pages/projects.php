@@ -1,7 +1,7 @@
             <div class="container">
 
                 <h2>Projects</h2>
-                <p>Listed here are a number of projects that I have finished or am currently still working on. Click on any project to read more. If something catches your eye and you would like to learn more about it, please don't hesitate to <a href="about-me" target="_blank">contact me</a>!</p>
+                <p>Click any project to read more. For more information, <a href="about-me" target="_blank">contact me</a>!</p>
 
                 <?php
                     // load projects.xml and parse it
