@@ -15,5 +15,3 @@ https://www.google.com/fonts
 http://detectmobilebrowsers.com/
 http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/
 https://github.com/js-cookie/js-cookie
-https://github.com/darcyclarke/Repo.js
-https://highlight.js/
