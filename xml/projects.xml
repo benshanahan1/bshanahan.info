@@ -35,7 +35,7 @@
         <project slug="uavclub">
             <title>Brown UAV Club</title>
             <thumbnail>images/thumbnail/projects/uavclub.jpg</thumbnail>
-            <description>I am a core member of the &lt;a href='http://brownuav.weebly.com/' target='_blank'&gt;Brown Unmanned Aerial Vehicle&lt;/a&gt; (UAV). With funding from the University, we develop unmanned aerial vehicles, usually quadcopters. Our most recent project is an FPV-enabled hexacopter that will be used for capturing high-resolution aerial footage.</description>
+            <description>I am a core member of the &lt;a href='http://brownuav.weebly.com/' target='_blank'&gt;Brown Unmanned Aerial Vehicle&lt;/a&gt; (UAV) club. With funding from the University, we develop unmanned aerial vehicles, usually quadcopters. Our most recent project is an FPV-enabled hexacopter that will be used for capturing high-resolution aerial footage.</description>
             <link>none</link>
         </project>
     </category>
@@ -52,12 +52,6 @@
             <thumbnail>none</thumbnail>
             <description>Over Summer 2013, working in the Cashlab at Massachussetts General Hospital with Eyal Kimchi, I helped to develop a cost-effective rat operant conditioning chamber with an additional system for motion-tracking and recording the rat's movement in realtime. I used an Arduino microcontroller for controlling both the chamber and the tracking system.</description>
             <link>http://www.kimchilab.org/opbox/</link>
-        </project>
-        <project slug="hfodetect">
-            <title>EEG HFO detection</title>
-            <thumbnail>none</thumbnail>
-            <description>Over Summer 2014, I worked with &lt;a href="http://www.omarlab.org" target="_blank"&gt;Omar Ahmed&lt;/a&gt; in the Cashlab at Massachussetts General Hospital on a detection algorithm for high frequency oscillations (HFOs) in local field potential (LFP) recordings of patients' seizures. This algorithm was used in research on the efficacy of HFOs in detecting seizure onset zone.</description>
-            <link>none</link>
         </project>
         <project slug="shapeanalysis">
             <title>Analysis of LFP shape</title>

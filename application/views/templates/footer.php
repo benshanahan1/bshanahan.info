@@ -11,15 +11,6 @@
         <!-- Page footer -->
         <div class="footer">
             <div class="container">
-                <div style="padding-top:5px;padding-bottom:5px;">
-                    <span class="hidden-xs">
-                        Copyright &copy; <?php echo date("Y"); ?> Benjamin Shanahan
-                    </span>
-                    <span class="visible-xs hidden-sm">
-                        Copyright &copy; <?php echo date("Y"); ?> B. Shanahan
-                    </span>
-                </div>
-
                 <div style="padding-bottom:10px;text-align:center;">
                     <a href="https://soundcloud.com/bshanahan" alt="SoundCloud" class="imagelink" target="_blank">
                         <img src="images/icon/soundcloud.png" width="48px" height="48px">

@@ -3,6 +3,9 @@ body {
     font-family: "Crimson Text", serif;
     font-size: 18pt;
 }
+p {
+    padding-bottom: 10px;
+}
 a {
     text-decoration: none;
     color: #ff00c8;
@@ -86,7 +89,6 @@ a:active {
 #navigation-footer {
     font-size: 25pt;
     font-family: "Open Sans", sans-serif;
-    /*margin-top: -30px;*/
     padding-bottom: 20px;
     letter-spacing: 1px;
     line-height: 22pt;
@@ -95,17 +97,3 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
-
-/* For prettyPhoto style */
-.thumbnail {
-    border: 0 none;
-    background: none;
-    box-shadow: none;
-}
-.thumbnail img {
-    opacity: .90;
-}
-.thumbnail img:hover {
-    opacity: 1;
-}
-
