@@ -1,21 +1,35 @@
 body {
     background: white;
     font-family: "Crimson Text", serif;
-    font-size: 15pt;
+    font-size: 18pt;
 }
 a {
     text-decoration: none;
+    color: #ff00c8;
 }
 a:link {
     text-decoration: none;
+    color: #ff00c8;
 }
 a:visited {
     text-decoration: none;
+    color: #ff00c8;
 }
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #ff00c8;
 }
 a:active {
+    text-decoration: underline;
+    color: #ff00c8;
+}
+
+/* Remove underline on image link hover */
+.imagelink {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.imagelink:hover {
     text-decoration: none;
 }
 
@@ -23,8 +37,19 @@ a:active {
     font-size: 18pt;
     color: black;
 }
+.navlink:link {
+    color: black;
+    text-decoration: none;
+}
+.navlink:visited {
+    color: black;
+}
 .navlink:hover {
-    color: #680a8a;
+    color: black;
+    text-decoration: underline;
+}
+.navlink:active {
+    color: black;
 }
 .footer {
     position: relative;

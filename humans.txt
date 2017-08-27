@@ -4,7 +4,7 @@ http://bshanahan.info
 Boston & Providence, US
 
 /* SITE */
-Last update: 15 July 2016
+Last update: 27 August 2017
 Standards: HTML5, CSS3, PHP5, XML
 Framework: CodeIgniter
 Components: Boostrap, jQuery
@@ -13,5 +13,3 @@ Software: Sublime Text 3, WinSCP
 /* RESOURCES */
 https://www.google.com/fonts
 http://detectmobilebrowsers.com/
-http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/
-https://github.com/js-cookie/js-cookie

@@ -1,8 +1,5 @@
             <div class="container">
 
-                <h2>Projects</h2>
-                <p>Click any project to read more. For more information, <a href="about-me" target="_blank">contact me</a>!</p>
-
                 <?php
                     // load projects.xml and parse it
                     $url = "xml/projects.xml";
@@ -12,7 +9,7 @@
                     foreach ($contents->category as $category) {
                 ?>
                 <div class="page-header">
-                    <h3 style="font-weight:bold;"><?php echo $category["label"]; ?></h3>
+                    <h2 style="font-weight:bold;"><?php echo $category["label"]; ?></h2>
                 </div>
                 <?php
                         foreach ($category->project as $project) {
