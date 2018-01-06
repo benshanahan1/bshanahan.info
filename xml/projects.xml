@@ -11,8 +11,8 @@
         <project slug="carlson">
             <title>Carlson</title>
             <thumbnail>images/thumbnail/projects/carlson.png</thumbnail>
-            <description>Lovingly nicknamed Carlson, this Raspberry Pi Zero based flight computer was built and programmed to monitor real-time rocket orientation during flight. Carlson has a 9-DOF MPU9255 inertial monitoring unit that includes an accelerometer, gyroscope, and magnetometer. It has a barometer as well. Since initial re-design and construction, we've successful deployed Carlson three times, and have collected informative data that will allow us to develop algorithms for Carlson-controlled parachute-deployment.</description>
-            <link>https://www.github.com/benshanahan1/carlson</link>
+            <description>Lovingly nicknamed Carlson, this Raspberry Pi Zero based flight computer was built and programmed to monitor real-time rocket orientation during flight. Carlson has a 10-DOF MPU9255 inertial monitoring unit that includes an accelerometer, gyroscope, and magnetometer. It has a barometer as well. Since initial re-design and construction, we've successful deployed Carlson three times, and have collected informative data that will allow us to develop algorithms for Carlson-controlled parachute-deployment. See the project &lt;a href="https://www.instagram.com/openrocketryinitiative/" target="_blank"&gt;Instagram&lt;/a&gt; for some awesome photos and videos from our flights.</description>
+            <link>https://www.github.com/openrocketryinitiative/carlson</link>
         </project>
         <project slug="audiolux2">
             <title>Audiolux 2</title>
