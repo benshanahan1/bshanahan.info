@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Test</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+.project {
+    border: solid 1px #eeeeee;
+    border-radius: 3px;
+    padding-top: 15px;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+    // Configure/customize these variables.
+    var showChar = 100;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Show more >";
+    var lesstext = "< Show less";
+    
+
+    $('.more').each(function() {
+        var content = $(this).html();
+ 
+        if(content.length > showChar) {
+ 
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+ 
+            var html = c + '<span class="moreellipses">' + ellipsestext + '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+ 
+            $(this).html(html);
+        }
+ 
+    });
+ 
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle('fast');
+        $(this).prev().toggle('fast');
+        return false;
+    });
+});
+</script>
+
+</head>
+<body>
+
+<div class="container text-center">    
+    
+    <h3>Extracurricular</h3><br>
+    <div class="row">
+
+        <div class="project col-sm-4">
+            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <p class="more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In orci elit, viverra at turpis a, suscipit congue ligula. In auctor elit ut tellus vulputate suscipit. Sed condimentum, massa quis convallis vulputate, felis turpis interdum ipsum, sed facilisis arcu purus quis elit. Proin quis mattis nibh. Integer ornare arcu quis justo interdum pulvinar. Nam sollicitudin iaculis dolor, id fringilla eros mattis eget. Praesent ultricies ornare enim, a volutpat elit. Praesent fringilla consectetur quam, at consectetur lorem ornare ut. Ut lacinia, metus et cursus aliquam, mauris augue laoreet nunc, quis sollicitudin purus mauris vitae nisi. Duis viverra ipsum et augue porta, a sodales neque euismod.</p>
+        </div>
+
+        <div class="project col-sm-4"> 
+            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <p class="more">Vestibulum vehicula dictum nibh, a viverra odio iaculis eu. In non congue mauris, gravida faucibus nisl. Aliquam erat volutpat. Sed laoreet lectus id mauris finibus laoreet. Praesent in quam et enim maximus feugiat. Pellentesque iaculis sodales dolor, eget sagittis dui lacinia nec. Nulla aliquam dui eget ligula faucibus, vel auctor turpis aliquam. Donec nec condimentum mauris. Phasellus non lacus consectetur nulla blandit venenatis nec a purus. Praesent vel varius eros. Mauris at turpis dolor. Nam vulputate ornare nunc, non blandit magna ullamcorper ut.</p>
+        </div>
+
+        <div class="project col-sm-4"> 
+            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <p class="more">Aliquam erat volutpat. Integer ac quam at velit tristique tincidunt. Sed egestas massa ut elit aliquam tincidunt ac quis quam. Vivamus pretium, eros ac consequat sagittis, massa nibh elementum nisl, rutrum egestas eros mauris eget dui. Duis ultricies auctor interdum. Suspendisse blandit augue eros, a malesuada orci aliquam vel. Donec massa lectus, ullamcorper nec arcu nec, viverra tincidunt ipsum. Quisque mattis lorem ut lacus dignissim laoreet. Aenean volutpat risus eu libero ullamcorper, ut sollicitudin felis fermentum. Vestibulum ac neque justo. Aliquam malesuada orci arcu, quis dignissim lorem ullamcorper sed.</p>
+        </div>
+
+    </div>
+
+
+    <h3>Coursework</h3><br>
+    <div class="row">
+
+        <div class="project col-sm-4">
+            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <p class="more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In orci elit, viverra at turpis a, suscipit congue ligula. In auctor elit ut tellus vulputate suscipit. Sed condimentum, massa quis convallis vulputate, felis turpis interdum ipsum, sed facilisis arcu purus quis elit. Proin quis mattis nibh. Integer ornare arcu quis justo interdum pulvinar. Nam sollicitudin iaculis dolor, id fringilla eros mattis eget. Praesent ultricies ornare enim, a volutpat elit. Praesent fringilla consectetur quam, at consectetur lorem ornare ut. Ut lacinia, metus et cursus aliquam, mauris augue laoreet nunc, quis sollicitudin purus mauris vitae nisi. Duis viverra ipsum et augue porta, a sodales neque euismod.</p>
+        </div>
+
+        <div class="project col-sm-4"> 
+            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <p class="more">Vestibulum vehicula dictum nibh, a viverra odio iaculis eu. In non congue mauris, gravida faucibus nisl. Aliquam erat volutpat. Sed laoreet lectus id mauris finibus laoreet. Praesent in quam et enim maximus feugiat. Pellentesque iaculis sodales dolor, eget sagittis dui lacinia nec. Nulla aliquam dui eget ligula faucibus, vel auctor turpis aliquam. Donec nec condimentum mauris. Phasellus non lacus consectetur nulla blandit venenatis nec a purus. Praesent vel varius eros. Mauris at turpis dolor. Nam vulputate ornare nunc, non blandit magna ullamcorper ut.</p>
+        </div>
+
+        <div class="project col-sm-4"> 
+            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <p class="more">Aliquam erat volutpat. Integer ac quam at velit tristique tincidunt. Sed egestas massa ut elit aliquam tincidunt ac quis quam. Vivamus pretium, eros ac consequat sagittis, massa nibh elementum nisl, rutrum egestas eros mauris eget dui. Duis ultricies auctor interdum. Suspendisse blandit augue eros, a malesuada orci aliquam vel. Donec massa lectus, ullamcorper nec arcu nec, viverra tincidunt ipsum. Quisque mattis lorem ut lacus dignissim laoreet. Aenean volutpat risus eu libero ullamcorper, ut sollicitudin felis fermentum. Vestibulum ac neque justo. Aliquam malesuada orci arcu, quis dignissim lorem ullamcorper sed.</p>
+        </div>
+
+    </div>
+
+
+</div>
+
+</body>
+</html>
