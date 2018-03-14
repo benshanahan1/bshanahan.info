@@ -6,7 +6,7 @@
             <title>lunadrop</title>
             <thumbnail>images/thumbnail/projects/lunadrop.png</thumbnail>
             <description>lunadrop is a comprehensive drone delivery system that allows users to easily place an order via a mobile web-app. Once an order is received, the drone is packed and it then flies autonomously from the central hub to the requested landing site, safely descends to drop off the package, and then returns to the central hub where it awaits the next order.</description>
-            <link>http://lunadrop.com</link>
+            <link>http://lunadrop.bshanahan.info</link>
         </project>
         <project slug="carlson">
             <title>Carlson</title>
