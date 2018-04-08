@@ -2,6 +2,12 @@
 <projects>
 
     <category label="Extracurricular">
+        <project slug="jukebox">
+            <title>Jukebox</title>
+            <thumbnail>images/thumbnail/projects/jukebox.png</thumbnail>
+            <description>Web application to help crowd-source the playlist for your next party! Uses Spotify's Web API to enable anonymous users to vote on a list of songs. If a user logs into the application they can add new songs to the list. Songs with more votes move up and less votes move down in the playlist order when the song list is exported to a Spotify playlist.</description>
+            <link>https://github.com/benshanahan1/jukebox</link>
+        </project>
         <project slug="lunadrop">
             <title>lunadrop</title>
             <thumbnail>images/thumbnail/projects/lunadrop.png</thumbnail>
