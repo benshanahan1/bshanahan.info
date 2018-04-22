@@ -13,18 +13,26 @@
                 </div>
                 <?php
                         foreach ($category->project as $project) {
-                            $slug = $project["slug"];
-                            $slug_content = $slug . "_content";
-                            $title = $project->title;
-                            $thumbnail = $project->thumbnail;
-                            $description = $project->description;
-                            $link = $project->link;
+                            $slug           = $project["slug"];
+                            $slug_content   = $slug . "_content";
+                            $title          = $project->title;
+                            $thumbnail      = $project->thumbnail;
+                            $brief          = $project->brief;
+                            $description    = $project->description;
+                            $link           = $project->link;
                 ?>
                 <div id="<?php echo $slug; ?>" class="page-content">
                     <div class="panel panel-default">
-                        <div class="panel-heading panel-style" style="height:50px;" onclick="toggle('#<?php echo $slug_content; ?>')">
-                            <span style="float:left;"><?php echo $title ?></span>
-                            <span class="col-md-1 hidden-xs hidden-sm" style="float:right;"><a href="?q=<?php echo $slug; ?>" title="Link me"><img src="images/icon/hyperlink.png" height="30px" width="30px" /></a></span>
+                        <div class="panel-heading" style="height: 50px;" onclick="toggle('#<?php echo $slug_content; ?>')">
+
+                            <span class="col-md-1 hidden-xs hidden-sm" style="float: right;"><a href="?q=<?php echo $slug; ?>" title="Link me"><img src="images/icon/hyperlink.png" height="30px" width="30px" /></a></span>
+                            
+                            <span class="project-title"><?php echo $title ?></span>
+                            
+                            <span class="project-short-description hidden-xs hidden-sm">
+                                <?php echo $brief; ?>
+                            </span>
+                            
                         </div>
                         <div id="<?php echo $slug_content; ?>" class="panel-body" style="display:none;">
                             <?php if($thumbnail != "none") { ?>

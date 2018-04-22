@@ -5,42 +5,49 @@
         <project slug="jukebox">
             <title>Jukebox</title>
             <thumbnail>images/thumbnail/projects/jukebox.png</thumbnail>
+            <brief>playlist crowd-sourcing app</brief>
             <description>Web application to help crowd-source the playlist for your next party! Uses Spotify's Web API to enable anonymous users to vote on a list of songs. If a user logs into the application they can add new songs to the list. Songs with more votes move up and less votes move down in the playlist order when the song list is exported to a Spotify playlist.</description>
             <link>https://github.com/benshanahan1/jukebox</link>
         </project>
         <project slug="lunadrop">
             <title>lunadrop</title>
             <thumbnail>images/thumbnail/projects/lunadrop.png</thumbnail>
+            <brief>autonomous drone delivery system</brief>
             <description>lunadrop is a comprehensive drone delivery system that allows users to easily place an order via a mobile web-app. Once an order is received, the drone is packed and it then flies autonomously from the central hub to the requested landing site, safely descends to drop off the package, and then returns to the central hub where it awaits the next order.</description>
             <link>http://lunadrop.bshanahan.info</link>
         </project>
         <project slug="carlson">
             <title>Carlson</title>
             <thumbnail>images/thumbnail/projects/carlson.png</thumbnail>
+            <brief>rocket flight computer</brief>
             <description>Lovingly named Carlson, this Raspberry Pi Zero based flight computer was built and programmed to monitor real-time rocket orientation during flight. Carlson has a 10-DOF MPU9255 inertial monitoring unit that includes an accelerometer, gyroscope, magnetometer, and barometer. We have successfully deployed Carlson in numerous launches, and have collected orientation data allowing us to develop an apogee-detection algorithm. The algorithm first detects rocket freefall (zero acceleration across all three axes) and then detects an angle of deviation of more than 90 degrees from vertical, indicating that the rocket is now falling downwards. When these conditions are met, a pin on the Pi triggers a relay that ignites the blast-cap, ejecting the parachute. See our &lt;a href="https://www.instagram.com/openrocketryinitiative/" target="_blank"&gt;Instagram&lt;/a&gt; for photos and videos.</description>
             <link>https://www.github.com/openrocketryinitiative/carlson</link>
         </project>
         <project slug="audiolux2">
             <title>Audiolux 2</title>
             <thumbnail>images/thumbnail/projects/audiolux2.jpg</thumbnail>
+            <brief>real-time audio visualizer</brief>
             <description>Version two of my original audio visualizer (see project directly above). Using a more powerful microprocessor, Audiolux 2 performs a realtime Fast Fourier Transform on incoming audio from a line-in connection. This analyzed spectral data is then displayed in two ways: on a spectrum analyzer (SA) which sets each RGB LED's color to the intensity of the signal in the corresponding frequency bin, and on a bass visualizer (BV) which sends a pulse of light upwards whenever the lower frequency bins pass above a pre-set threshold. The color of the pulse represents the amplitude of the bass in the given bins. After revising the circuit, I then implemented it on a solderable bread board, and fit it into a small project box to make it self-contained. I also connected the RGB LED voltage, signal, and ground outputs to rows of multiple headers so that it is possible to extend the light display by adding up to six of each type of LED strip. The "view project" link below contains a folder of images and videos of the project in order to give you a better feel for its design, layout, and function.&lt;br&gt;&lt;br&gt;If you would like to view the code involved and a circuit schematic, visit the &lt;a href="https://www.github.com/benshanahan1/audiolux2" target="_blank"&gt;project repository&lt;/a&gt; on GitHub.</description>
             <link>https://drive.google.com/folderview?id=0B0o_ibOPs__CRDcxNHRzSUI5RW8&amp;usp=drive_web</link>
         </project>
         <project slug="phoenix1">
             <title>Phoenix 1 Quadcopter</title>
             <thumbnail>images/thumbnail/projects/phoenix1quad.jpg</thumbnail>
+            <brief>custom quadcopter</brief>
             <description>Custom-built quadcopter for aerial photography and video. The quadcopter can perform autonomous missions in addition to standard RF control, thanks to the onboard GPS and telemetry systems. This is the first quadcopter I've built, and the hope is to continue to upgrade it incrementally (for example, adding a camera gimbal, installing various sensors, upgrading the motors, etc.) as my budget allows.</description>
             <link>https://drive.google.com/drive/u/0/folders/0B0o_ibOPs__CdjhJUHJ0Qm1EQUU</link>
         </project>
         <project slug="artbeat">
             <title>Artbeat</title>
             <thumbnail>images/thumbnail/projects/artbeat.jpg</thumbnail>
+            <brief>art-centered student organization</brief>
             <description>I am a cofounder of &lt;a href='http://www.anartbeataway.org/' target='_blank'&gt;Artbeat&lt;/a&gt;, a student organization at Brown University that is committed bringing Providence's rich artistic community to all the students of College Hill. We started in the beginning of 2015, but since our debut we have garnered a lot of momentum. We host biweekly art workshops, have held a number of fundraisers (including an art and music night at the Flatbread Company on Thayer Street, the sale of over three hundred Spring Weekend tank tops to Brown University students, and the design and sale of t-shirts for Thayer Street's very own Festival Fete), and have had success with our most recent project: a pop-up art gallery on Thayer Street made of modular display boards which can be relocated to any newly vacant building or display window on the street. We recently were promoted to a Category 2 student group and now receive limited funding from the university, to supplement our grants and fundraising.</description>
             <link>none</link>
         </project>
         <project slug="uavclub">
             <title>Brown UAV Club</title>
             <thumbnail>images/thumbnail/projects/uavclub.jpg</thumbnail>
+            <brief>unmanned aerial vehicle club</brief>
             <description>I am a core member of the &lt;a href='http://brownuav.weebly.com/' target='_blank'&gt;Brown Unmanned Aerial Vehicle&lt;/a&gt; (UAV) club. With funding from the University, we develop unmanned aerial vehicles, usually quadcopters. Our most recent project is an FPV-enabled hexacopter that will be used for capturing high-resolution aerial footage.</description>
             <link>none</link>
         </project>
@@ -50,18 +57,21 @@
         <project slug="semio">
             <title>Semiology Diagnostic Tool</title>
             <thumbnail>images/thumbnail/projects/semio.jpg</thumbnail>
+            <brief></brief>
             <description>An objective semiology diagnostic tool that allows doctors to select patient symptoms pre/during/post seizure. These symptoms are then passed through an algorithm which determines probabilities of seizure origin for different regions of the brain (using data accumulated from numerous literary sources). These probabilities are then used to render a 3D brain which the user can interact with and rotate to view the most likely seizure onset zones. Program documentation and download are available at the link below.</description>
             <link>http://www.bshanahan.info/semio</link>
         </project>
         <project slug="ratoperant">
             <title>Arduino operant conditioning</title>
             <thumbnail>none</thumbnail>
+            <brief></brief>
             <description>Over Summer 2013, working in the Cashlab at Massachussetts General Hospital with Eyal Kimchi, I helped to develop a cost-effective rat operant conditioning chamber with an additional system for motion-tracking and recording the rat's movement in realtime. I used an Arduino microcontroller for controlling both the chamber and the tracking system.</description>
             <link>http://www.kimchilab.org/opbox/</link>
         </project>
         <project slug="shapeanalysis">
             <title>Analysis of LFP shape</title>
             <thumbnail>images/thumbnail/projects/asym.png</thumbnail>
+            <brief></brief>
             <description>Since 2014 I have been working with Omar Ahmed on the detailed analysis of brain rhythm shape in rats in order to discern the rhythm's efficicacy as a predictive metric for various aspects of spiking. We have developed a large number of Matlab tools for analyzing brain rhythms and have discovered intriguing results. A paper is currently in the works.</description>
             <link>none</link>
         </project>
@@ -71,18 +81,21 @@
         <project slug="choroidplexus">
             <title>Choroidal Epithelium Dynamics</title>
             <thumbnail>none</thumbnail>
+            <brief></brief>
             <description>Final research paper in Neural Dynamics course taught by Professor Christopher Moore. Paper discusses how the periodic activation during sleep of inhibitory interneurons by choroidal epithelial cells in the third ventricle generates fast spindles.</description>
             <link>none</link>
         </project>
         <project slug="connectivity">
             <title>Connectivity schemes</title>
             <thumbnail>images/thumbnail/projects/connectivity.jpg</thumbnail>
+            <brief></brief>
             <description>Final research project for course in Computational Neuroscience. My partner and I modeled large-scale recurrent neural networks and observed the effect that different network connectivity schemes played on the network's activity. Supplementary code can be found &lt;a href='documents/projects/connectivity-schemes/code-export.zip' target='_blank'&gt;here&lt;/a&gt;.</description>
             <link>documents/projects/connectivity-schemes/ShanahanLee2015.pdf</link>
         </project>
         <project slug="neur1600">
             <title>Neuroscience methods lab</title>
             <thumbnail>none</thumbnail>
+            <brief></brief>
             <description>Report and presentation for two separate units of my NEUR1600 course at Brown. This class, taught by Professor John Stein, focused on laboratory methods such as dissections, electrophysiological recordings from bullfrogs and aplysia, and writing up scientific findings. In order to make reporting not-necessarily-unique findings easier, we pretended that the organisms we were conducting research on came from NASA's most recent manned mission to Mars! Aplysia lab write-up on the electrophysiological properties of the neurons within the abdominal ganglion can be found &lt;a href="documents/projects/neur1600/aplysia_full.pdf" target="_blank"&gt;here&lt;/a&gt;, along with my &lt;a href="documents/projects/neur1600/aplysia_discuss.pdf" target="_blank"&gt;individual discussion section&lt;/a&gt;. Presentation on bullfrog receptive fields can be found &lt;a href="documents/projects/neur1600/frogrf.pdf" target="_blank"&gt;here&lt;/a&gt;.
             </description>
             <link>none</link>
