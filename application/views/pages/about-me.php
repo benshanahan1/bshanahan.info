@@ -11,7 +11,7 @@
                         
                         <p style="padding-left:20px;">Outside of work, I am developing a user-friendly <a href="projects?q=lunadrop">drone delivery service</a> and a rocket flight computer named <a href="projects?q=carlson">Carlson</a> for controlling parachute deployment.</p>
                         
-                        <p style="padding-left:20px;">Here's my current <a href="documents/ShanahanBenjaminCV.pdf" target="_blank">CV</a>. My email is <strong>ben (at) bshanahan.info</strong>.</p>
+                        <p style="padding-left:20px;">Here's my current <a href="documents/ShanahanBenjaminCV.pdf" target="_blank">CV</a>. My email is <strong>benshanahan1 (at) gmail.com</strong>.</p>
 
                 </div>
             </div>
